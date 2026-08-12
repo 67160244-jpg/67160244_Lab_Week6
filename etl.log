@@ -1,0 +1,61 @@
+2026-08-12 12:40:40,422 | INFO | ETL started
+2026-08-12 12:41:47,376 | INFO | ETL started
+2026-08-12 12:41:47,400 | INFO | Extracted customers: shape=(62, 4) columns=['customer_id', 'name', 'province', 'email']
+2026-08-12 12:41:47,401 | INFO | Extracted orders: shape=(183, 8) columns=['order_id', 'customer_id', 'product_id', 'order_date', 'qty', 'unit_price', 'discount_pct', 'status']
+2026-08-12 12:41:47,402 | INFO | Extracted products: shape=(15, 4) columns=['product_id', 'product_name', 'category.name', 'pricing.price']
+2026-08-12 12:41:47,404 | INFO | Extracted stores: shape=(3, 3) columns=['store_id', 'store_name', 'province']
+2026-08-12 12:41:47,418 | INFO | Customers: dropped 2 duplicate customer_id rows
+2026-08-12 12:41:47,436 | INFO | Products: dropped 0 duplicate product_id rows
+2026-08-12 12:41:47,438 | INFO | Orders: dropped 3 duplicate order_id rows
+2026-08-12 12:41:47,537 | INFO | Transform complete: 100 valid sales rows, 80 rejected rows
+2026-08-12 12:41:47,548 | INFO | Wrote 80 reject rows to output/rejects.csv
+2026-08-12 12:41:47,599 | INFO | Loaded warehouse: 60 customers, 15 products, 100 sales rows (upsert)
+2026-08-12 12:41:47,604 | INFO | Validation result: {'source_valid_rows': 100, 'warehouse_rows': 100, 'duplicate_order_ids': 0, 'source_total_sales': 192074.66, 'warehouse_total_sales': 192074.66, 'status': 'PASS'}
+2026-08-12 12:41:47,608 | INFO | ETL completed
+2026-08-12 12:41:51,120 | INFO | ETL started
+2026-08-12 12:41:51,133 | INFO | Extracted customers: shape=(62, 4) columns=['customer_id', 'name', 'province', 'email']
+2026-08-12 12:41:51,134 | INFO | Extracted orders: shape=(183, 8) columns=['order_id', 'customer_id', 'product_id', 'order_date', 'qty', 'unit_price', 'discount_pct', 'status']
+2026-08-12 12:41:51,135 | INFO | Extracted products: shape=(15, 4) columns=['product_id', 'product_name', 'category.name', 'pricing.price']
+2026-08-12 12:41:51,136 | INFO | Extracted stores: shape=(3, 3) columns=['store_id', 'store_name', 'province']
+2026-08-12 12:41:51,140 | INFO | Customers: dropped 2 duplicate customer_id rows
+2026-08-12 12:41:51,149 | INFO | Products: dropped 0 duplicate product_id rows
+2026-08-12 12:41:51,154 | INFO | Orders: dropped 3 duplicate order_id rows
+2026-08-12 12:41:51,240 | INFO | Transform complete: 100 valid sales rows, 80 rejected rows
+2026-08-12 12:41:51,245 | INFO | Wrote 80 reject rows to output/rejects.csv
+2026-08-12 12:41:51,255 | INFO | Loaded warehouse: 60 customers, 15 products, 100 sales rows (upsert)
+2026-08-12 12:41:51,261 | INFO | Validation result: {'source_valid_rows': 100, 'warehouse_rows': 100, 'duplicate_order_ids': 0, 'source_total_sales': 192074.66, 'warehouse_total_sales': 192074.66, 'status': 'PASS'}
+2026-08-12 12:41:51,263 | INFO | ETL completed
+2026-08-12 12:43:01,498 | INFO | ETL started
+2026-08-12 12:43:01,509 | INFO | Extracted customers: shape=(62, 4) columns=['customer_id', 'name', 'province', 'email']
+2026-08-12 12:43:01,510 | INFO | Extracted orders: shape=(183, 8) columns=['order_id', 'customer_id', 'product_id', 'order_date', 'qty', 'unit_price', 'discount_pct', 'status']
+2026-08-12 12:43:01,511 | INFO | Extracted products: shape=(15, 4) columns=['product_id', 'product_name', 'category.name', 'pricing.price']
+2026-08-12 12:43:01,511 | INFO | Extracted stores: shape=(3, 3) columns=['store_id', 'store_name', 'province']
+2026-08-12 12:43:01,514 | INFO | Customers: dropped 2 duplicate customer_id rows
+2026-08-12 12:43:01,522 | INFO | Products: dropped 0 duplicate product_id rows
+2026-08-12 12:43:01,525 | INFO | Orders: dropped 3 duplicate order_id rows
+2026-08-12 12:43:01,615 | INFO | Transform complete: 100 valid sales rows, 80 rejected rows
+2026-08-12 12:43:01,619 | INFO | Wrote 80 reject rows to output/rejects.csv
+2026-08-12 12:43:01,628 | INFO | Loaded warehouse: 60 customers, 15 products, 100 sales rows (upsert)
+2026-08-12 12:43:01,632 | INFO | Validation result: {'source_valid_rows': 100, 'warehouse_rows': 100, 'duplicate_order_ids': 0, 'source_total_sales': 192074.66, 'warehouse_total_sales': 192074.66, 'status': 'PASS'}
+2026-08-12 12:43:01,635 | INFO | ETL completed
+2026-08-12 12:46:43,975 | INFO | ETL started
+2026-08-12 12:46:43,987 | INFO | Extracted customers: shape=(62, 4) columns=['customer_id', 'name', 'province', 'email']
+2026-08-12 12:46:43,988 | INFO | Extracted orders: shape=(183, 8) columns=['order_id', 'customer_id', 'product_id', 'order_date', 'qty', 'unit_price', 'discount_pct', 'status']
+2026-08-12 12:46:43,989 | INFO | Extracted products: shape=(15, 4) columns=['product_id', 'product_name', 'category.name', 'pricing.price']
+2026-08-12 12:46:43,990 | INFO | Extracted stores: shape=(3, 3) columns=['store_id', 'store_name', 'province']
+2026-08-12 12:46:43,993 | INFO | Customers: dropped 2 duplicate customer_id rows
+2026-08-12 12:46:44,001 | INFO | Products: dropped 0 duplicate product_id rows
+2026-08-12 12:46:44,005 | INFO | Orders: dropped 3 duplicate order_id rows
+2026-08-12 12:46:44,095 | INFO | Transform complete: 100 valid sales rows, 80 rejected rows
+2026-08-12 12:46:44,098 | INFO | Wrote 80 reject rows to output/rejects.csv
+2026-08-12 12:46:44,105 | INFO | Loaded warehouse: 60 customers, 15 products, 100 sales rows (upsert)
+2026-08-12 12:46:44,109 | INFO | Validation result: {'source_valid_rows': 100, 'warehouse_rows': 100, 'duplicate_order_ids': 0, 'source_total_sales': 192074.66, 'warehouse_total_sales': 192074.66, 'status': 'PASS'}
+2026-08-12 12:46:44,112 | INFO | ETL completed
+2026-08-12 13:20:15,117 | INFO | Extracted customers: shape=(62, 4) columns=['customer_id', 'name', 'province', 'email']
+2026-08-12 13:20:15,117 | INFO | Extracted orders: shape=(183, 8) columns=['order_id', 'customer_id', 'product_id', 'order_date', 'qty', 'unit_price', 'discount_pct', 'status']
+2026-08-12 13:20:15,118 | INFO | Extracted products: shape=(15, 4) columns=['product_id', 'product_name', 'category.name', 'pricing.price']
+2026-08-12 13:20:15,119 | INFO | Extracted stores: shape=(3, 3) columns=['store_id', 'store_name', 'province']
+2026-08-12 13:20:15,121 | INFO | Customers: dropped 2 duplicate customer_id rows
+2026-08-12 13:20:15,133 | INFO | Products: dropped 0 duplicate product_id rows
+2026-08-12 13:20:15,136 | INFO | Orders: dropped 3 duplicate order_id rows
+2026-08-12 13:20:15,270 | INFO | Transform complete: 100 valid sales rows, 80 rejected rows
